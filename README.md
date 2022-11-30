@@ -1,6 +1,6 @@
 # Prática_#3:
 ---
-Primero haciendo uso del comando ```git log --oneline --all``` listamos todos nuestros commits, una vez que estemos seguros de que tenemos 3 procedemos a realizar la práctica.
+Primero haciendo uso del comando ```git log --oneline --all``` listamos todos nuestros commits, una vez que estemos seguros de que tenemos 3, procedemos a realizar la práctica.
 
 ---
 # Comando ```git tag``` :
@@ -9,7 +9,7 @@ El comando ```git tag``` nos permite poner etiquetas a nuestros commits
 
 ![](img/2.png)
 
-En este caso etiquetamos nuestro primer commit como V1 usando la propiedad ```-a``` y colocamos un mensaje con la propiedad ```-m "..."```, seguido de esto colocamos el hash del commit que queremos etiqueta.De ;igual modo procedemos a etiquetar nuestro commit 3 como V2.
+En este caso etiquetamos nuestro primer commit como V1 usando la propiedad ```-a``` y colocamos un mensaje con la propiedad ```-m "..."```, seguido de esto colocamos el hash del commit que queremos etiquetar.De igual modo procedemos a etiquetar nuestro commit 3 como V2.
 
 
 ```No etiquetamos el segundo commit```
@@ -45,7 +45,7 @@ Podemos utilizar el comando ```git checkout ``` y en vez de utilizar el hash del
 En este caso podemos observar que en la versión 2 se agregaron dos líneas
 una con texto y otra que fue un salto de línea
 
-### En mi caso quise revisar los cambios del ultimo commit con respecto al segundo
+### En mi caso quise revisar los cambios del último commit con respecto al segundo
 
 ![](/img/8.png)
 
@@ -56,8 +56,8 @@ Donde se observa que solo se añadió una línea.
 
 ![](/img/9.png)
 
-Es aconsejable primero poner el commit mas antiguo y luego el más moderno.
-Si cambiamos el orden nos saldria como algo que borramos es decir en color rojo.
+Es aconsejable primero poner el commit más antiguo y luego el más moderno.
+Si cambiamos el orden nos saldría como algo que borramos, es decir, en color rojo.
 
 Podemos observar las líneas agregadas desde el commit 1 hasta el commit 3, en este caso 3.
 
@@ -67,4 +67,4 @@ Teniendo en cuenta el resultado anterior , a continuación ejecutamos el comando
 
 ![](/img/10.png)
 
-Luego podemos arribar a la conclusión de que el comando ```git diff``` muestra todos los cambios realizados de un commit hasta otro commit de forma centralizada, todo lo contrario al comando ```git show```, este muestra comparaciones de un commit con el anterior asíª sucesivamente dificultando la lectura de la información
+Luego podemos arribar a la conclusión de que el comando ```git diff``` muestra todos los cambios realizados de un commit hasta otro commit de forma centralizada, todo lo contrario al comando ```git show```, este muestra comparaciones de un commit con el anterior así sucesivamente dificultando la lectura de la información.
